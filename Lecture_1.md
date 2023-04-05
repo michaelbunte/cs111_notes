@@ -50,18 +50,20 @@ Here's a dumb idea, explain why it's dumb
 
 ### Textbooks
 - *Operating Systems, Three Easy Pieces* by Arpaci Dusseau
+    - pages.cs.wisc.edu/~remzi/OSTEP/#book-chapters
     - operating systems
     - 2018
-- *POSD* by Salter and Kaashack
+- *Principles of Computer System Design: An Introduction* by Salter and Kaashack
+  (SK)
+    - www.sciencedirect.com/book/9780123749574/principles-of-computer-system-design
     - more about system principals
     - 2009
 - Mark Kampe
+    - specific readings provided at www.cs.ucla.edu/classes/spring23/cs111/syllabus.html
     - 2016
 
-### Weekly Readings
-- AD 1 - 2, 36
-- SK 1, 2 - 2, 3
-- MK Interfaces
+### Readings for next lecture
+- AD §1–§2, §36 • SK §1, §2–§2.3 • MK Software interface standards
 ---
 ## What is a System?
 > Oxford English Dictionary Definition: <br>
