@@ -6,11 +6,11 @@ An operating system is too big and complex to treat as "just a program"
 
 This course both looks at the practical and the theory 
 
-| category | hours |
-|----------|-------|
-| lecture  |  3.5  |
-| lab      |  1.7  |
-| outside study | 15 |
+| category      | hours |
+|---------------|-------|
+| lecture       |  3.5  |
+| lab           |  1.7  |
+| outside study | 15    |
 
 Website: www.cs.ucla.edu/classes/spring23/cs111
 <br>
