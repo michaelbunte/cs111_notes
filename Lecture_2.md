@@ -1,6 +1,8 @@
 # Lecture 2 - Writing a Program Without an Operating System
 ## How not to OS
 
+https://omarelamri.notion.site/Lecture-2-April-6th-2023-4e90425e9e26495c9e51461b6bcca275
+
 Write a program: <br>
 - count words in a file
 - no OS
