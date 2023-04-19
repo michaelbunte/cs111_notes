@@ -115,7 +115,7 @@ int main(int argc, char *argv[]) {
 > an unsigned integer used by a process to identify an open file 
 
 ### Redirection
-oftwne we don't want the stdin/stdout fd to point to their default places
+oftwne we don't want the stdin/stdout fd to point to their default placess
 - for example `>` and `<`
 
 `argv[i]'s stdout fd = argv[i+1]'s stdin fd`
