@@ -104,7 +104,7 @@ Another idea, create another interface: <br>
 - treates entire thing as one array 
 
 We also need to have some kind of error verification:
-- `ssize_t read_n_buff(long long location, char * buf, size_t)`
+- `ssize_t read_n_buff(long long location, char * buf, size_t )`
     - `ssize_t`: gives -1 if failed, otherwise gives number of bytes written
 
 #### Problem Reads

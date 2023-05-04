@@ -32,7 +32,7 @@ some other attributes
     - `char buff[512]` = `char * buff`
 - our 'text' starts at position `50000` in the drive
 
-ide 
+ide disk drive interface
 - divides drive into 512 byte sectors
     - we call them sectors as because this is how disk drives are built
     ![](imgs/harddisk.gif)
@@ -126,8 +126,8 @@ void wait_for_ready() {
 }
 void read_ide_sector(long long s, char buff[512]) {
     wait_for_read();
-    outb(0x1f2, 1);
-    outb(0x1f2, s & 0xFF);
+    outb(0x1f2, 1); // the number of sectors
+    outb(0x1f2, s & 0xFF); // which sector i want to read from
     outb(0x1f3, s >> s&0xff);
     outb(0x1f4, s >> (s>>8) & 0xff);
     outb(0x1f5, s >> (s>>16) & 0xff);
@@ -141,7 +141,8 @@ void read_ide_sector(long long s, char buff[512]) {
 ```
 
 ### but how does all of this code get stuffed into the computer?
-we need to compile our code as `gcc -m32`
+we need to compile our code as `gcc -m32`  
+compile only in 32 bit mode
 
 ``` 
 |-------RAM------|--ROM--|
